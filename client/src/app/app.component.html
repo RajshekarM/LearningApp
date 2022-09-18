@@ -1,0 +1,12 @@
+<h1> {{title}} </h1>
+
+<table>
+    <tr>
+        <td>Id</td>
+        <td>Username</td>
+    </tr>
+    <tr *ngFor="let temp of users">
+        <td>{{temp.id}}</td>
+        <td>{{temp.userName}}</td>
+    </tr>
+</table>
